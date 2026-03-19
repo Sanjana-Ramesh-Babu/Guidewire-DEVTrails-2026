@@ -1,4 +1,4 @@
-# InsurGig — AI-Powered Parametric Income Insurance for Food Delivery Partners
+# InsurGig - AI-Powered Parametric Income Insurance for Food Delivery Partners
 
 > Guidewire DEVTrails 2026 |
 > Persona: Food Delivery Partners — Swiggy & Zomato
