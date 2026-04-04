@@ -1,0 +1,29 @@
+{
+  "messages": [
+    {
+      "from": "bot",
+      "template": "Namaste {{name}}! Welcome to InsurGig — we help protect your delivery income when your day doesn’t go as planned.",
+      "button": null
+    },
+    {
+      "from": "bot",
+      "template": "Your plan is set for {{zone}}, {{city}}.\n\n• Weekly contribution: ₹{{premium}}\n• Protection this week: up to ₹{{coverage_cap}}\n• Payouts go to: {{upi_id}}",
+      "button": null
+    },
+    {
+      "from": "bot",
+      "template": "We’ll send reminders and updates on this chat. Tap below when you’re ready to pay this week’s contribution in the app (demo — no real charge).",
+      "button": { "label": "Open payment in app", "action": "open_payment" }
+    },
+    {
+      "from": "user",
+      "template": "I’m ready to pay",
+      "button": null
+    },
+    {
+      "from": "bot",
+      "template": "Great. Complete payment in the app — once it shows success, your profile will show this week as active. Ride safe!",
+      "button": null
+    }
+  ]
+}

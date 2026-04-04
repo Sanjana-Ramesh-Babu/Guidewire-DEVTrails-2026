@@ -1,0 +1,18 @@
+[
+  {"id": "T1", "name": "Extreme weather", "category": "Environmental", "threshold": "Rain >40mm/hr, AQI >300, Heat >42°C, Fog <50m"},
+  {"id": "T2", "name": "Urban road flooding", "category": "Environmental", "threshold": "Rain + traffic delay elevated"},
+  {"id": "T3", "name": "Natural disaster alert", "category": "Environmental", "threshold": "Cyclone watch (DB / IMD)"},
+  {"id": "T4", "name": "Zone friction / dead-time", "category": "Environmental", "threshold": "Wait >18 min + congestion"},
+  {"id": "T5", "name": "Civic curfew / strike", "category": "Social", "threshold": "Zone closure (DB)"},
+  {"id": "T6", "name": "Pandemic / containment zone", "category": "Social", "threshold": "Govt restriction (DB)"},
+  {"id": "T7", "name": "Election / dry day restriction", "category": "Social", "threshold": "Scheduled ECI-style date (DB)"},
+  {"id": "T8", "name": "Festival road closures", "category": "Social", "threshold": "Municipal (DB)"},
+  {"id": "T9", "name": "Regulatory vehicle ban", "category": "Social", "threshold": "Advisory (DB)"},
+  {"id": "T10", "name": "Fuel / CNG shortage", "category": "Economic", "threshold": "Soft ML ≥ 0.65"},
+  {"id": "T11", "name": "LPG shortage cascade", "category": "Economic", "threshold": "Soft ML ≥ 0.65"},
+  {"id": "T12", "name": "Peak hour demand collapse", "category": "Economic", "threshold": "Soft ML ≥ 0.65"},
+  {"id": "T13", "name": "Labour oversupply surge", "category": "Economic", "threshold": "Soft ML ≥ 0.65"},
+  {"id": "T14", "name": "Power grid outage", "category": "Infrastructure", "threshold": "Soft ML ≥ 0.65"},
+  {"id": "T15", "name": "Internet / telecom blackout", "category": "Infrastructure", "threshold": "Soft ML ≥ 0.65"},
+  {"id": "T16", "name": "Platform app outage", "category": "Infrastructure", "threshold": "Soft ML ≥ 0.65"}
+]

@@ -1,0 +1,6 @@
+{
+  "starter": { "label": "Starter", "weekly_premium": 59, "coverage_cap": 700, "coverage_pct": 0.5 },
+  "casual": { "label": "Casual", "weekly_premium": 79, "coverage_cap": 900, "coverage_pct": 0.7 },
+  "fulltime": { "label": "Full-time", "weekly_premium": 129, "coverage_cap": 1800, "coverage_pct": 0.7 },
+  "power": { "label": "Power Rider", "weekly_premium": 199, "coverage_cap": 3000, "coverage_pct": 0.7 }
+}
